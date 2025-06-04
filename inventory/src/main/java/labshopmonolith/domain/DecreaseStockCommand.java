@@ -5,4 +5,7 @@ import java.util.*;
 import lombok.Data;
 
 @Data
-public class DecreaseStockCommand {}
+public class DecreaseStockCommand {
+
+    private Integer qty;
+}

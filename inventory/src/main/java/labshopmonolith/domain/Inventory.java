@@ -2,6 +2,7 @@ package labshopmonolith.domain;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.time.LocalDate;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -29,7 +30,7 @@ public class Inventory {
     }
 
     //<<< Clean Arch / Port Method
-    public void decreaseStock() {
+    public void decreaseStock(DecreaseStockCommand decreaseStockCommand) {
         //implement business logic here:
 
     }
